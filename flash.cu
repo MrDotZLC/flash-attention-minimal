@@ -112,5 +112,6 @@ torch::Tensor forward(torch::Tensor Q, torch::Tensor K, torch::Tensor V) {
         N, d, Tc, Tr, Bc, Br, softmax_scale,
         l.data_ptr<float>(), m.data_ptr<float>(), O.data_ptr<float>()
     );
+    cudaDeviceSynchronize();
     return O;
 }
