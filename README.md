@@ -6,6 +6,8 @@ This project forked from [flash-attention-minimal](https://github.com/tspeterkim
 The official [implementation](https://github.com/Dao-AILab/flash-attention) can be quite daunting for a CUDA beginner
 (like myself), so this repo tries to be small and educational.
 
+❗️ This repository will no longer be updated. Please go to [cuda_practice第三部分](https://github.com/MrDotZLC/cuda_practice/tree/main/3_flash_attention_study).
+
 ## Usage
 ### Prerequisite
 * PyTorch (with CUDA)
